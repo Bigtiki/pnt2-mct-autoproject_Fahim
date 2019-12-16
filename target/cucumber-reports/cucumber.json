@@ -1,0 +1,79 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "User on HOme Page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3889240048,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on MCT home page",
+            "match": {
+              "location": "Mct_login_steps.user_is_on_MCT_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-12-16T20:22:19.226Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3646364699,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Mct_cuck_hooks.rampUp()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "User can got to links in the footer section",
+        "description": "",
+        "id": "footer-links;user-can-got-to-links-in-the-footer-section",
+        "after": [
+          {
+            "result": {
+              "duration": 20392532,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Mct_cuck_hooks.rampDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 90787887143,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User can go to footer links",
+            "match": {
+              "location": "Mct_ValidateFooter_steps.user_can_go_to_footer_links()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Footer Links",
+    "description": "User can go to the footer links",
+    "id": "footer-links",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/AllTestFeatures/Validation_FotterLinks.feature",
+    "tags": []
+  }
+]
